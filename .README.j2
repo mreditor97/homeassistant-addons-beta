@@ -43,7 +43,8 @@ For a general repository issue or add-on ideas [open an issue here][issue]
 
 [addon-{{ addon.target }}]: {{ addon.repo }}/tree/{{ addon.version }}
 [{{ addon.target }}-issue]: {{ addon.repo }}/issues
-[{{ addon.target }}-version-shield]: https://img.shields.io/badge/version-{{ addon.version }}-blue.svg
+
+[{{ addon.target }}-version-shield]: https://img.shields.io/badge/version-{{ addon.version | replace('-', '--', 2) }}-blue.svg
 
 {% for arch in ['aarch64', 'amd64', 'armhf', 'armv7', 'i386'] %}
 {% if arch in addon.archs %}
