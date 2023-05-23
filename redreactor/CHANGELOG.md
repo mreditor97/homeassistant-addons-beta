@@ -1,8 +1,7 @@
 ## What’s changed
 
-- Initial beta release
+- Initial release
 - Change release-shield colour @mreditor97 (#7)
-- Added beta release release-shield badge support
 
 ## ⬆️ Dependency updates
 
