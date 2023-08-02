@@ -2,4 +2,4 @@
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update redreactor to v0.1.2 @renovate (#11)
+- ⬆️ Update redreactor to v0.1.3 @renovate (#12)
